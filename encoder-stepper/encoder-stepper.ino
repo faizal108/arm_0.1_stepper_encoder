@@ -7,7 +7,7 @@
 #define DT 3
 #define BTN 4
 
-
+// this lib just used for setup motor
 AccelStepper stepper = AccelStepper(1, stepPin, dirPin);
 
 int BTNState = 0;
